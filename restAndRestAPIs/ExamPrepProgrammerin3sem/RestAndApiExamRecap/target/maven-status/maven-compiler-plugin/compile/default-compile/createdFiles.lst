@@ -1,0 +1,14 @@
+test\Tester.class
+entities\Owner.class
+entities\messages\JSONMessage.class
+entities\Event_.class
+entities\Pet.class
+entities\messages\MessageFacade.class
+entities\EventFacade.class
+entities\Pet_.class
+rest\ApplicationConfig.class
+entities\PetFacade.class
+rest\PetResource.class
+entities\Owner_.class
+entities\Event.class
+entities\messages\PetMessage.class
