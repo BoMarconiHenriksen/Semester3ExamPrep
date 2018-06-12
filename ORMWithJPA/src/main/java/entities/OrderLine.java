@@ -26,7 +26,7 @@ public class OrderLine implements Serializable {
     //1 til * mellem Ordre og OrderLine
     //Ordre table indeholder IKKE en owner kolonne,
     //men en owner id_id kolonne med en foreign key. Og laver en join for at lazy fetche owner.
-    @ManyToOne//(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "ORDER_ID")
     Ordre order;
     

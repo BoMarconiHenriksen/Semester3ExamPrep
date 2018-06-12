@@ -113,13 +113,13 @@ var setName = (function () {
 
 function Person(first, name, age) {
     this.getName = function () { //Konstruktør
-            return name;
-        };
+        return name;
+    };
     this.lastName = last;
     this.getAge = function () { //Konstruktør
-            return age;
-        };
-  
+        return age;
+    };
+
 }
 
 //var bo = new setName("Bo");
@@ -148,11 +148,10 @@ function Person(firstName, lastName, age) {
     this.firstName = firstName;
     this.lastName = lastName;
     this.age = age;
-      this.details=function() {return this.firstName + " " + this.lastName + ", " + this.age}
+    this.details = function () {
+        return this.firstName + " " + this.lastName + ", " + this.age
+    }
 }
-//    var getDetails=(Person) => {
-//        return "First Name:  " + Person.firstName + ". Last Name: " + Person.lastName + ". Age: " + Person.age;
-//};
 
 var Benedikte = new Person("Benedikte", "Majbrink", 47);
 var Bo = new Person("Bo", "Henriksen", 43);

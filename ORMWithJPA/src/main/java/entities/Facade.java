@@ -23,11 +23,11 @@ public class Facade {
         Customer customerOne = new Customer();
         customerOne.setName("Jens Hansen");
         customerOne.setEmail("jh@hotmail.com");
-        
-        
-        String name= customerOne.getName();
-        System.out.println(name);
-//        createCustomer(customerOne, em);
+//        
+//        
+//        String name= customerOne.getName();
+//        System.out.println(name);
+        createCustomer(customerOne, em);
 //        Customer customerTwo = new Customer();
 //        customerTwo.setName("Bodil Jensen");
 //        customerTwo.setEmail("bj@gmail.com");
